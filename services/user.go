@@ -6,12 +6,6 @@ import (
 	"github.com/isadoramsouza/grpc-go/pb"
 )
 
-//type UserServiceServer interface {
-//	AddUser(context.Context, *User) (*User, error)
-//	mustEmbedUnimplementedUserServiceServer()
-//}
-
-
 type UserService struct {
 	pb.UnimplementedUserServiceServer
 }
